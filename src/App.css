@@ -1,38 +1,52 @@
-.App {
+html, body {
+  margin: 0;
+  padding: 0;
   text-align: center;
+  background-color: #f0efe9;
+  color: #4f5364;
+  font-family: 'trebuchet ms';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  height: 10vh;
+  margin-top: 40px;
+  /* font-family: 'arial rounded mt bold'; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-section {
+  height: 10vh;
+  margin: 0 auto 50px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.todoList {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(1fr, auto));
+  grid-auto-rows: minmax(40px, auto);
+
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.working-section > h2 {
+  width: 100px;
+  height: 20px;
+  line-height: 60%;
+  margin: 0 auto 0 auto;
+  background-color: #FF9B9B;
 }
+
+.done-section > h2 {
+  width: 100px;
+  height: 20px;
+  line-height: 60%;
+  margin: 0 auto 50px auto;
+  background-color: #50e3a4;
+}
+

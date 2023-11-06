@@ -1,0 +1,63 @@
+.todos {
+  width: 500px;
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 10px;
+
+  display: flex;
+  margin: 0 auto 20px auto;
+  background-color: white;
+
+  justify-content: space-between;
+}
+
+.todosTxt {
+  display: flex;
+}
+
+.todosTxt > p {
+  margin-left: 50px;
+  line-height: 25px;
+  margin-top: 20px;
+  font-family: 'nanumsquare';
+}
+
+.todosBtn {
+  transform: translateY(20%);
+}
+
+.todosBtn > button {
+  border-radius: 50%;
+  border-style: none;
+  border: 3px solid #50e3a4;
+  background-color: white;
+
+  margin-right: 10px;
+  padding: 2px 8px;
+
+  text-align: center;
+  line-height: 24px;
+  font-size: 20px;
+  color: #50e3a4;  
+
+  transition: all 0.1s ease-in-out;
+}
+
+.todosBtn >button:nth-child(1) {
+  color : #FF9B9B;
+  border-color: #FF9B9B;
+}
+
+.todosBtn > button:nth-child(1):hover {
+  background-color: #FF9B9B;
+  color: #FF6666;
+}
+
+.todosBtn > button:nth-child(2):hover {
+  background-color: #50e3a4;
+  color: #46be8b; 
+}
+
+.todosBtn > button:hover {
+  cursor: pointer;
+}

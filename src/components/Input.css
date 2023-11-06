@@ -1,0 +1,27 @@
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+.input > input {
+  padding: 8px 30px;
+  margin-right: 10px;
+
+  text-align: center;
+  border-style: none;
+  border-radius: 15px;
+}
+
+.input > button {
+  border-radius: 50%;
+  border-style: none;
+
+  padding: 6px 12px;
+  font-size: 20px;
+  background-color: #50e3a4;
+  color: #46be8b;
+}
+
+.input > button:hover {
+  cursor: pointer;
+}
